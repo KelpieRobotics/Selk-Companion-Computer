@@ -1,0 +1,12 @@
+[Unit]
+Description=GStreamer Service
+After=network.target
+
+[Service]
+WorkingDirectory=/home/ubuntu/
+ExecStart=/home/ubuntu/gstream_start.sh
+Restart=on-failure
+User=ubuntu
+
+[Install]
+WantedBy=multi-user.target

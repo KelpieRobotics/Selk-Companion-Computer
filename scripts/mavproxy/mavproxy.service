@@ -5,7 +5,7 @@ StartLimitIntervalSec=0
 
 [Service]
 WorkingDirectory=/home/ubuntu/
-ExecStart=/home/ubuntu/.local/bin/mavproxy.py --master=/dev/ttyAMA0 --baudrate=115200 --out=udp:0.0.0.0:14550 --aircraft=Sub --cmd="set flushlogs True" --daemon
+ExecStart=/home/ubuntu/start_mavproxy.sh
 StandardOutput=inherit
 StandardError=inherit
 Restart=on-failure

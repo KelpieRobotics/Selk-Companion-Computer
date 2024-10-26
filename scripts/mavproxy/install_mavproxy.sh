@@ -6,3 +6,8 @@ echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.bashrc
 
 # copy service to correct directory
 sudo cp mavproxy.service /etc/systemd/system/
+
+sudo systemctl daemon-reload
+sudo systemctl enable mavproxy
+sudo service mavproxy start
+systemctl status mavproxy.service
