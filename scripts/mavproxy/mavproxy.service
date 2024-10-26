@@ -1,0 +1,15 @@
+[Unit]
+Description=MavProxy service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+WorkingDirectory=/home/ubuntu/
+ExecStart=/home/ubuntu/start_mavproxy.sh
+StandardOutput=inherit
+StandardError=inherit
+Restart=on-failure
+User=ubuntu
+
+[Install]
+WantedBy=multi-user.target
