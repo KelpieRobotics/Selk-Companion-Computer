@@ -1,13 +1,10 @@
 [Unit]
-Description=MavProxy service
+Description=GStreamer Service
 After=network.target
-StartLimitIntervalSec=0
 
 [Service]
 WorkingDirectory=/home/ubuntu/Selk-Companion-Computer
-ExecStart=./scripts/start_mavproxy.sh
-StandardOutput=inherit
-StandardError=inherit
+ExecStart=./scripts/start_gstreamer.sh
 Restart=on-failure
 User=pi
 
