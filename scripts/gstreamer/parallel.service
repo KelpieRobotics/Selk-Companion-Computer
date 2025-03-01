@@ -1,11 +1,11 @@
 [Unit]
 Description=GStreamer Service
-After=network.target parallel.service
+After=network.target
 
 [Service]
 WorkingDirectory=/home/ubuntu/Selk-Companion-Computer
-ExecStart=./scripts/start_gstreamer.sh
 Restart=on-failure
+ExecStart=/bin/true
 User=pi
 
 [Install]
