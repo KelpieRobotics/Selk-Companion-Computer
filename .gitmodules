@@ -1,0 +1,8 @@
+[submodule "modules/selk_rc_receiver"]
+	path = modules/selk_rc_receiver
+	url = https://github.com/KelpieRobotics/selk_rc_receiver
+	branch = scope-1-opi5+
+[submodule "modules/rov-sensor-broadcaster"]
+	path = modules/rov-sensor-broadcaster
+	url = https://github.com/KelpieRobotics/rov-sensor-broadcaster
+	branch = scope-1
