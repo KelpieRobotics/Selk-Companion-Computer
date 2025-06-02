@@ -12,6 +12,6 @@
 #U_BOOT_TIMEOUT="50"
 #U_BOOT_FDT=""
 #U_BOOT_FDT_DIR="/lib/firmware/"
-U_BOOT_FDT_OVERLAYS="rk3588-uart6-m1.dtbo rk3588-uart8-m1.dtbo rk3488-i2c2-m0.dtbo"
+U_BOOT_FDT_OVERLAYS="rk3588-uart6-m1.dtbo rk3588-uart8-m1.dtbo rk3588-i2c2-m0.dtbo"
 U_BOOT_FDT_OVERLAYS_DIR="/usr/lib/firmware/6.1.0-1025-rockchip/device-tree/rockchip/overlay/"
 #U_BOOT_SYNC_DTBS="false"
